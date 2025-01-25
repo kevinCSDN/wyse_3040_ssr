@@ -31,8 +31,8 @@ git clone https://github.com/vernesong/OpenClash package/openclash
 #git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
 #git clone --depth=1 https://github.com/derisamedia/luci-theme-alpha package/luci-theme-alpha
 #克隆的源码放在small文件夹,预先建立small文件夹
-#mkdir package/small
-#pushd package/small
+mkdir package/small
+pushd package/small
 
 #克隆源码
 #删除feeds自带mosdns、v2ray-geodata
@@ -53,4 +53,4 @@ git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git
 git clone --depth=1 -b master https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone --depth=1 -b master https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 #git clone --depth=1 -b main https://github.com/morytyann/OpenWrt-mihomo.git package/mihomo
-#popd
+popd
