@@ -43,7 +43,7 @@ rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf feeds/luci/themes/luci-app-argon-config
 
 #passwall2
-#git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git
+git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git
 #git clone -b luci-smartdns-dev --depth 1 https://github.com/xiaorouji/openwrt-passwall.git
 #git clone -b main --depth 1 https://github.com/bcseputetto/openwrt-passwall.git
 #https://github.com/bcseputetto/openwrt-passwall
