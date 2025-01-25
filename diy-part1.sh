@@ -17,6 +17,7 @@
 
 sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '2i src-git small https://github.com/soapmancn/small' feeds.conf.default
+sed -i '3i src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
 #sed -i '3i src-git nas https://github.com/linkease/nas-packages.git;master' feeds.conf.default
 #sed -i '4i src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' feeds.conf.default
 ./scripts/feeds update -a && rm -rf feeds/luci/applications/luci-app-mosdns && rm -rf feeds/packages/net/{alist,adguardhome,mosdns,smartdns}
